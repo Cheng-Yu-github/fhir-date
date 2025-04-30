@@ -1,0 +1,21 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "servicerequest-cgm-followup",
+  "status": "active",
+  "intent": "order",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "386053000",
+        "display": "Evaluation of diabetes management"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-cgm-upload"
+  },
+  "occurrenceTiming": {
+    "event": ["2024-03-16"]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "servicerequest-rehab-month-start",
+  "status": "active",
+  "intent": "order",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "371573006",
+        "display": "Rehabilitation program"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-rehab-cycle"
+  },
+  "occurrenceTiming": {
+    "repeat": {
+      "boundsPeriod": {
+        "start": "2024-03"
+      }
+    }
+  }
+}

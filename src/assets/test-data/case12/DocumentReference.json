@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-discharge-summary",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "18842-5",
+        "display": "Discharge summary"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-discharge-transfer"
+  },
+  "date": "2024-01-20T18:00:00.000Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-discharge-summary.pdf",
+        "title": "Discharge Summary Report",
+        "creation": "2024-01-20T18:00:00.000Z"
+      }
+    }
+  ]
+}

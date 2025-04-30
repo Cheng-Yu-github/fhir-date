@@ -1,0 +1,16 @@
+{
+  "resourceType": "Encounter",
+  "id": "encounter-refugee-admission",
+  "status": "in-progress",
+  "class": {
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "code": "AMB",
+    "display": "ambulatory"
+  },
+  "subject": {
+    "reference": "Patient/patient-refugee-example"
+  },
+  "period": {
+    "start": "2024-03-01"
+  }
+}

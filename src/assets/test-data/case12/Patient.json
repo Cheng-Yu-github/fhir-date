@@ -1,0 +1,13 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-crosscountry-surgery",
+  "name": [
+    {
+      "use": "official",
+      "family": "Park",
+      "given": ["Jinwoo"]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1965-09-14"
+}

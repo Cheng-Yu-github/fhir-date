@@ -1,0 +1,21 @@
+{
+  "resourceType": "Observation",
+  "id": "observation-monthly-report-end",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "72166-2",
+        "display": "Health data monthly summary"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-population-reporting"
+  },
+  "effectivePeriod": {
+    "end": "2024-03"
+  },
+  "valueString": "No readmission events during March"
+}

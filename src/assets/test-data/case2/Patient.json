@@ -1,0 +1,13 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-er-visit-example",
+  "name": [
+    {
+      "use": "official",
+      "family": "Smith",
+      "given": ["Emma"]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1986-07-19"
+}

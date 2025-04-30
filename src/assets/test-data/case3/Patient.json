@@ -1,0 +1,12 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-health-survey-example",
+  "name": [
+    {
+      "use": "anonymous",
+      "text": "Population Cohort Subject"
+    }
+  ],
+  "gender": "unknown",
+  "birthDate": "1985"
+}

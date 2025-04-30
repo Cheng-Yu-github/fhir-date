@@ -1,0 +1,26 @@
+{
+  "resourceType": "Observation",
+  "id": "observation-ambulatory-bp-start",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "8889-8",
+        "display": "Ambulatory systolic blood pressure"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-ambulatory-bp"
+  },
+  "effectivePeriod": {
+    "start": "2024-03-15T08:00:00.000+02:00"
+  },
+  "valueQuantity": {
+    "value": 128,
+    "unit": "mmHg",
+    "system": "http://unitsofmeasure.org",
+    "code": "mm[Hg]"
+  }
+}

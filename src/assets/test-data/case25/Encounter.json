@@ -1,0 +1,16 @@
+{
+  "resourceType": "Encounter",
+  "id": "encounter-yearonly-start",
+  "status": "finished",
+  "class": {
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "code": "AMB",
+    "display": "Ambulatory"
+  },
+  "subject": {
+    "reference": "Patient/patient-encounter-yearonly"
+  },
+  "period": {
+    "start": "2024"
+  }
+}

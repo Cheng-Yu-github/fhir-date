@@ -1,0 +1,25 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "servicerequest-monthly-lab-round",
+  "status": "active",
+  "intent": "order",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "252275004",
+        "display": "Specimen collection for laboratory procedure"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-monthly-surveillance"
+  },
+  "occurrenceTiming": {
+    "repeat": {
+      "boundsPeriod": {
+        "start": "2024-03-01"
+      }
+    }
+  }
+}

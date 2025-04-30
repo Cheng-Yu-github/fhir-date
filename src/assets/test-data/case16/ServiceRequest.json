@@ -1,0 +1,21 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "servicerequest-precise-lab-appointment",
+  "status": "active",
+  "intent": "order",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "1751-7",
+        "display": "Blood urea nitrogen [Mass/volume] in Serum or Plasma"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-precise-lab-schedule"
+  },
+  "occurrenceTiming": {
+    "event": ["2024-03-15T08:00:00.000Z"]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-annual-survey-summary",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "60591-5",
+        "display": "Public health annual report"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-health-survey-example"
+  },
+  "date": "2024-12-31T23:59:59Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-annual-survey-summary.pdf",
+        "title": "2024 Annual Health Survey Summary",
+        "creation": "2024-12-31T23:59:59Z"
+      }
+    }
+  ]
+}

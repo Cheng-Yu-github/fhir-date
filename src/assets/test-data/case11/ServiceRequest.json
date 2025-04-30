@@ -1,0 +1,19 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "servicerequest-pt-referral",
+  "status": "completed",
+  "intent": "order",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "44054006",
+        "display": "Referral to physical therapy"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-physio-start-only"
+  },
+  "authoredOn": "2024-01-03"
+}

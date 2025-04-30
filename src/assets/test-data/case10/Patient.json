@@ -1,0 +1,13 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-dayonly-procedure",
+  "name": [
+    {
+      "use": "official",
+      "family": "Lopez",
+      "given": ["Carlos"]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1992-03-30"
+}

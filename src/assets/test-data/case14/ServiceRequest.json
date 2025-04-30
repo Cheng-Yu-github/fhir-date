@@ -1,0 +1,21 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "servicerequest-annual-wellness-call",
+  "status": "active",
+  "intent": "plan",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "185389009",
+        "display": "Annual wellness visit"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-annual-checkup"
+  },
+  "occurrenceTiming": {
+    "event": ["2024"]
+  }
+}

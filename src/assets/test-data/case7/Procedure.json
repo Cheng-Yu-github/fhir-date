@@ -1,0 +1,18 @@
+{
+  "resourceType": "Procedure",
+  "id": "procedure-bp-device-placement",
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "73761001",
+        "display": "Application of ambulatory blood pressure monitor"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-ambulatory-bp"
+  },
+  "performedDateTime": "2024-03-15T08:00:00.000+02:00"
+}

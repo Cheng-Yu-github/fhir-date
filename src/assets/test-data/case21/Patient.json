@@ -1,0 +1,13 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-lab-series-end",
+  "name": [
+    {
+      "use": "official",
+      "family": "Choudhury",
+      "given": ["Amina"]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "2001-08-04"
+}

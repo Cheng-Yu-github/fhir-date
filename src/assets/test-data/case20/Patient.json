@@ -1,0 +1,13 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-population-reporting",
+  "name": [
+    {
+      "use": "official",
+      "family": "Andersson",
+      "given": ["Lars"]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1950"
+}

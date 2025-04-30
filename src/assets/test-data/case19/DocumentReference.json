@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-eu-rehab-consent",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "64292-6",
+        "display": "Consent for rehabilitation services"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-eu-rehab-start"
+  },
+  "date": "2024-03-15T08:00:00.000+02:00",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-eu-rehab-consent.pdf",
+        "title": "Consent Form – EU Rehab Start",
+        "creation": "2024-03-15T08:00:00.000+02:00"
+      }
+    }
+  ]
+}

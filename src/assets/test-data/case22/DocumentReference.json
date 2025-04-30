@@ -1,0 +1,32 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-consent-period",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "64292-6",
+        "display": "Consent form"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-consent-period-only"
+  },
+  "date": "2024-01-10T09:00:00Z",
+  "period": {
+    "start": "2024-01-01",
+    "end": "2024-12-31"
+  },
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-consent-period.pdf",
+        "title": "Data Sharing Consent (2024)",
+        "creation": "2024-01-10T09:00:00Z"
+      }
+    }
+  ]
+}

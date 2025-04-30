@@ -1,0 +1,13 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-precise-lab-schedule",
+  "name": [
+    {
+      "use": "official",
+      "family": "Zhou",
+      "given": ["Li"]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1995-12-02"
+}

@@ -1,0 +1,13 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-timeonly-observation",
+  "name": [
+    {
+      "use": "official",
+      "family": "Petrov",
+      "given": ["Elena"]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1979-09-01"
+}

@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-cgm-report",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "72166-2",
+        "display": "Glucose monitoring summary report"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-cgm-upload"
+  },
+  "date": "2024-03-15T15:00:00.000Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-cgm-report.pdf",
+        "title": "CGM Upload Summary",
+        "creation": "2024-03-15T15:00:00.000Z"
+      }
+    }
+  ]
+}

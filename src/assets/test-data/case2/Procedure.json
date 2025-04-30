@@ -1,0 +1,21 @@
+{
+  "resourceType": "Procedure",
+  "id": "procedure-discharge",
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "306206005",
+        "display": "Discharge from emergency department"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-er-visit-example"
+  },
+  "performedDateTime": "2024-03-05T16:30:00.123Z",
+  "encounter": {
+    "reference": "Encounter/encounter-er-visit"
+  }
+}

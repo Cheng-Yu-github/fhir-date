@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-diabetes-tracking-summary",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "34133-9",
+        "display": "Summary of episode note"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-diabetes-tracking"
+  },
+  "date": "2024-03-02T10:30:00.000Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-diabetes-tracking-summary.pdf",
+        "title": "2024 Diabetes Registry Summary",
+        "creation": "2024-03-02T10:30:00.000Z"
+      }
+    }
+  ]
+}

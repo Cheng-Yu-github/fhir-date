@@ -1,0 +1,13 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-monthly-labs",
+  "name": [
+    {
+      "use": "official",
+      "family": "Bergström",
+      "given": ["Eva"]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1960-02-14"
+}

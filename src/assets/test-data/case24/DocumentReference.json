@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-bp-clinic-form",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "11503-0",
+        "display": "Procedure note"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-timeonly-observation"
+  },
+  "date": "2024-03-15T09:00:00Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-bp-clinic-form.pdf",
+        "title": "BP Clinic Form – March 15",
+        "creation": "2024-03-15T09:00:00Z"
+      }
+    }
+  ]
+}

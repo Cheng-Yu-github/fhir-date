@@ -1,0 +1,21 @@
+{
+  "resourceType": "Observation",
+  "id": "observation-diabetes-tracking",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "11323-3",
+        "display": "Diabetes long-term status"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-diabetes-tracking"
+  },
+  "effectivePeriod": {
+    "start": "2024"
+  },
+  "valueString": "Enrolled in diabetes outcome registry"
+}

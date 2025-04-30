@@ -1,0 +1,13 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-monthly-surveillance",
+  "name": [
+    {
+      "use": "official",
+      "family": "Okoro",
+      "given": ["Chika"]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1976-01-25"
+}
