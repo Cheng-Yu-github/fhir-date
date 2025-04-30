@@ -1,0 +1,13 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-eu-rehab-start",
+  "name": [
+    {
+      "use": "official",
+      "family": "Hansen",
+      "given": ["Katrine"]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1974-05-06"
+}

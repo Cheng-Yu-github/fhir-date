@@ -1,0 +1,25 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "servicerequest-eu-rehab-start",
+  "status": "active",
+  "intent": "order",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "73658001",
+        "display": "Physical therapy procedure"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-eu-rehab-start"
+  },
+  "occurrenceTiming": {
+    "repeat": {
+      "boundsPeriod": {
+        "start": "2024-03-15T08:00:00.000+02:00"
+      }
+    }
+  }
+}

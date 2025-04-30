@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-lab-series-report",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "11502-2",
+        "display": "Laboratory report"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-lab-series-end"
+  },
+  "date": "2024-03-15T14:45:00Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-lab-series-report.pdf",
+        "title": "Lab Panel Completion Summary",
+        "creation": "2024-03-15T14:45:00Z"
+      }
+    }
+  ]
+}

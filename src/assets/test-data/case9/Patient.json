@@ -1,0 +1,13 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-cgm-upload",
+  "name": [
+    {
+      "use": "official",
+      "family": "Brown",
+      "given": ["Avery"]
+    }
+  ],
+  "gender": "non-binary",
+  "birthDate": "2003-12-10"
+}

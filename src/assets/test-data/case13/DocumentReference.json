@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-operative-note",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "11504-8",
+        "display": "Operative note"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-crosscountry-surgery"
+  },
+  "date": "2024-01-20T23:00:00.000Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-operative-note.pdf",
+        "title": "Knee Surgery Operative Note",
+        "creation": "2024-01-20T23:00:00.000Z"
+      }
+    }
+  ]
+}

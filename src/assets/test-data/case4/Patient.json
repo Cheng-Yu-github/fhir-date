@@ -1,0 +1,13 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-diabetes-tracking",
+  "name": [
+    {
+      "use": "official",
+      "family": "Nguyen",
+      "given": ["Linh"]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1970-05-20"
+}

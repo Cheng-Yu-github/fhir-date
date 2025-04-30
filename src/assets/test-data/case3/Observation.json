@@ -1,0 +1,19 @@
+{
+  "resourceType": "Observation",
+  "id": "observation-annual-survey",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "88121-9",
+        "display": "General health status - annual self-report"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-health-survey-example"
+  },
+  "effectiveDateTime": "2024",
+  "valueString": "Self-reported health is good"
+}

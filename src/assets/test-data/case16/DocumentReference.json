@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-lab-appointment-confirmation",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "34873-6",
+        "display": "Laboratory appointment confirmation"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-precise-lab-schedule"
+  },
+  "date": "2024-03-14T12:00:00Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-lab-appointment-confirmation.pdf",
+        "title": "Lab Appointment Confirmation",
+        "creation": "2024-03-14T12:00:00Z"
+      }
+    }
+  ]
+}

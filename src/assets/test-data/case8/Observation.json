@@ -1,0 +1,21 @@
+{
+  "resourceType": "Observation",
+  "id": "observation-holter-monitor-end-only",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "33757-3",
+        "display": "ECG study observation"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-holter-monitoring"
+  },
+  "effectivePeriod": {
+    "end": "2024-03-15T17:30:00.000-05:00"
+  },
+  "valueString": "24-hour ECG monitoring ended successfully"
+}

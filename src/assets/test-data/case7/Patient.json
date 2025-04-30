@@ -1,0 +1,13 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-ambulatory-bp",
+  "name": [
+    {
+      "use": "official",
+      "family": "Meier",
+      "given": ["Sophie"]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1990-11-22"
+}

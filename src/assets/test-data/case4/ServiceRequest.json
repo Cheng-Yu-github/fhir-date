@@ -1,0 +1,21 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "servicerequest-diabetes-followup",
+  "status": "active",
+  "intent": "order",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "185349003",
+        "display": "Encounter for diabetic follow-up"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-diabetes-tracking"
+  },
+  "occurrenceTiming": {
+    "event": ["2024-03-10T08:00:00.000Z"]
+  }
+}

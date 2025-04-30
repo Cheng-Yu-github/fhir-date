@@ -1,0 +1,13 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-encounter-yearonly",
+  "name": [
+    {
+      "use": "official",
+      "family": "Müller",
+      "given": ["Hans"]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1955-03-22"
+}

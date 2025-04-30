@@ -1,0 +1,13 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-annual-checkup",
+  "name": [
+    {
+      "use": "official",
+      "family": "Martinez",
+      "given": ["Isabella"]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1988-06-30"
+}

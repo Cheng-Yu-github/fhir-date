@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-ambulatory-bp-report",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "11526-1",
+        "display": "24 hour ambulatory blood pressure report"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-ambulatory-bp"
+  },
+  "date": "2024-03-16T09:30:00.000Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-ambulatory-bp-report.pdf",
+        "title": "Ambulatory BP Monitoring Report",
+        "creation": "2024-03-16T09:30:00.000Z"
+      }
+    }
+  ]
+}

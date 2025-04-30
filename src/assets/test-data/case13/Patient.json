@@ -1,0 +1,13 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-discharge-transfer",
+  "name": [
+    {
+      "use": "official",
+      "family": "Lee",
+      "given": ["Grace"]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1949-10-12"
+}

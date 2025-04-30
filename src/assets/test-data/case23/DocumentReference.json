@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-device-upload-instant",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "55108-5",
+        "display": "Device data transmission log"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-device-upload"
+  },
+  "date": "2024-04-01T06:45:27.456Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-device-upload-instant.pdf",
+        "title": "Device Sync Report",
+        "creation": "2024-04-01T06:45:27.456Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-custom-rehab-plan",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "68819-9",
+        "display": "Physical therapy treatment plan"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-rehab-midmonth"
+  },
+  "date": "2024-03-14T14:00:00Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-custom-rehab-plan.pdf",
+        "title": "Rehab Plan – Start 2024-03-15",
+        "creation": "2024-03-14T14:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "resourceType": "Procedure",
+  "id": "procedure-skin-lesion-excision",
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "387713003",
+        "display": "Excision of skin lesion"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-dayonly-procedure"
+  },
+  "performedDateTime": "2024-01-15"
+}

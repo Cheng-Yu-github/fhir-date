@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-refugee-summary",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "34133-9",
+        "display": "Summary of episode note"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-refugee-example"
+  },
+  "date": "2024-03-20T13:45:00.000Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-refugee-summary.pdf",
+        "title": "Refugee Visit Summary",
+        "creation": "2024-03-20T13:45:00.000Z"
+      }
+    }
+  ]
+}

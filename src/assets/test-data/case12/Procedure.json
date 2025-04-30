@@ -1,0 +1,20 @@
+{
+  "resourceType": "Procedure",
+  "id": "procedure-discharge-only",
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "306206005",
+        "display": "Discharge from hospital"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-discharge-transfer"
+  },
+  "performedPeriod": {
+    "end": "2024-01-20T17:30:00.000Z"
+  }
+}

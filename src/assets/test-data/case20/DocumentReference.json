@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-monthly-health-summary",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "60591-5",
+        "display": "Public health monthly surveillance report"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-population-reporting"
+  },
+  "date": "2024-04-01T08:00:00Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-monthly-health-summary.pdf",
+        "title": "March 2024 Reporting Summary",
+        "creation": "2024-04-01T08:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "resourceType": "Procedure",
+  "id": "procedure-pt-program-start",
+  "status": "in-progress",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "73658001",
+        "display": "Physical therapy procedure"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-physio-start-only"
+  },
+  "performedPeriod": {
+    "start": "2024-01-10T08:00"
+  }
+}

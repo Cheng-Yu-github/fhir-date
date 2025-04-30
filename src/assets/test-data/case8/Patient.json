@@ -1,0 +1,13 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-holter-monitoring",
+  "name": [
+    {
+      "use": "official",
+      "family": "Johnson",
+      "given": ["Michael"]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1978-08"
+}

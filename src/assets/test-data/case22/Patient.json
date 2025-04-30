@@ -1,0 +1,13 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-consent-period-only",
+  "name": [
+    {
+      "use": "official",
+      "family": "Gonzalez",
+      "given": ["María"]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1982-11-01"
+}

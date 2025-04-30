@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-skin-procedure-note",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "11503-0",
+        "display": "Procedure note"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-dayonly-procedure"
+  },
+  "date": "2024-01-15T18:00:00.000Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-skin-procedure-note.pdf",
+        "title": "Skin Lesion Procedure Note",
+        "creation": "2024-01-15T18:00:00.000Z"
+      }
+    }
+  ]
+}

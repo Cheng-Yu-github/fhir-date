@@ -1,0 +1,13 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-refugee-example",
+  "name": [
+    {
+      "use": "official",
+      "family": "Doe",
+      "given": ["Ali"]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "2000"
+}

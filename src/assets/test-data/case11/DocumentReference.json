@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-pt-consent-form",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "64292-6",
+        "display": "Consent for physical therapy"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-physio-start-only"
+  },
+  "date": "2024-01-09T17:00:00Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-pt-consent-form.pdf",
+        "title": "PT Consent Form",
+        "creation": "2024-01-09T17:00:00Z"
+      }
+    }
+  ]
+}

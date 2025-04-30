@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-monthly-lab-summary",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "60591-5",
+        "display": "Public health monthly surveillance report"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-monthly-surveillance"
+  },
+  "date": "2024-04-01T06:00:00Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-monthly-lab-summary.pdf",
+        "title": "March 2024 Lab Collection Summary",
+        "creation": "2024-04-01T06:00:00Z"
+      }
+    }
+  ]
+}

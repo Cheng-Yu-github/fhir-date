@@ -1,0 +1,21 @@
+{
+  "resourceType": "Observation",
+  "id": "observation-monthly-lab-round",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "1988-5",
+        "display": "Influenza virus A RNA presence"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-monthly-surveillance"
+  },
+  "effectivePeriod": {
+    "start": "2024-03"
+  },
+  "valueString": "Results pending, collection in progress"
+}

@@ -1,0 +1,19 @@
+{
+  "resourceType": "Observation",
+  "id": "observation-postop-functional-status",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "89243-0",
+        "display": "Postoperative functional status"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-crosscountry-surgery"
+  },
+  "effectiveDateTime": "2024-01-20T17:30:00-05:00",
+  "valueString": "Able to walk independently with assistive device"
+}

@@ -1,0 +1,21 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "servicerequest-monthly-lab-round",
+  "status": "active",
+  "intent": "order",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "24320-4",
+        "display": "Routine blood chemistry panel"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-monthly-labs"
+  },
+  "occurrenceTiming": {
+    "event": ["2024-03"]
+  }
+}

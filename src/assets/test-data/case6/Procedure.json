@@ -1,0 +1,18 @@
+{
+  "resourceType": "Procedure",
+  "id": "procedure-retro-chart-entry",
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "710818004",
+        "display": "Documentation of clinical findings"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-homecare-retro"
+  },
+  "performedDateTime": "2024-03-16T08:30:00Z"
+}

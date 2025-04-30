@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-monthly-lab-order",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "18726-0",
+        "display": "Laboratory report"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-monthly-labs"
+  },
+  "date": "2024-02-28T17:00:00.000Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-monthly-lab-order.pdf",
+        "title": "Monthly Lab Standing Order - March 2024",
+        "creation": "2024-02-28T17:00:00.000Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "resourceType": "Observation",
+  "id": "observation-cgm-upload-end",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "56846-1",
+        "display": "Glucose [Moles/volume] in Interstitial fluid -- Sensor"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-cgm-upload"
+  },
+  "effectivePeriod": {
+    "end": "2024-03-15T15:00:00.000Z"
+  },
+  "valueQuantity": {
+    "value": 5.9,
+    "unit": "mmol/L",
+    "system": "http://unitsofmeasure.org",
+    "code": "mmol/L"
+  }
+}

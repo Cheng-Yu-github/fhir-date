@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-rehab-program-intake",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "64292-6",
+        "display": "Rehabilitation intake summary"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-rehab-cycle"
+  },
+  "date": "2024-03-01T09:00:00Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-rehab-program-intake.pdf",
+        "title": "Rehab Program Intake Summary",
+        "creation": "2024-03-01T09:00:00Z"
+      }
+    }
+  ]
+}

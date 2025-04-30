@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-homecare-paper-upload",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "11506-3",
+        "display": "Blood pressure record"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-homecare-retro"
+  },
+  "date": "2024-03-16T10:45:00.000Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-homecare-paper-upload.pdf",
+        "title": "BP Monitoring - March 15, 2024",
+        "creation": "2024-03-16T10:45:00.000Z"
+      }
+    }
+  ]
+}

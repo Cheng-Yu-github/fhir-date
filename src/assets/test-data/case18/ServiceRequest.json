@@ -1,0 +1,25 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "servicerequest-rehab-midmonth-plan",
+  "status": "active",
+  "intent": "order",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385798007",
+        "display": "Physical rehabilitation"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-rehab-midmonth"
+  },
+  "occurrenceTiming": {
+    "repeat": {
+      "boundsPeriod": {
+        "start": "2024-03-15"
+      }
+    }
+  }
+}

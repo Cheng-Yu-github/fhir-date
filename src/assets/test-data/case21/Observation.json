@@ -1,0 +1,21 @@
+{
+  "resourceType": "Observation",
+  "id": "observation-lab-series-end",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "24323-8",
+        "display": "Lab test summary panel"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-lab-series-end"
+  },
+  "effectivePeriod": {
+    "end": "2024-03-15"
+  },
+  "valueString": "All lab tests in panel completed successfully."
+}

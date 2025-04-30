@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-ecg-summary-report",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "11524-6",
+        "display": "Electrocardiogram summary"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-holter-monitoring"
+  },
+  "date": "2024-03-15T21:30:00.000Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-ecg-summary-report.pdf",
+        "title": "Holter Monitoring Final Report",
+        "creation": "2024-03-15T21:30:00.000Z"
+      }
+    }
+  ]
+}

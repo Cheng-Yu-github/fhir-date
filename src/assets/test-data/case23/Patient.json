@@ -1,0 +1,13 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-device-upload",
+  "name": [
+    {
+      "use": "official",
+      "family": "Kowalski",
+      "given": ["Mateusz"]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1987-06-14"
+}

@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "document-er-discharge-summary",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "18842-5",
+        "display": "Discharge summary"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-er-visit-example"
+  },
+  "date": "2024-03-05T18:15:00.000Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "http://example.org/fhir/DocumentReference/document-er-discharge-summary.pdf",
+        "title": "ED Discharge Summary",
+        "creation": "2024-03-05T18:15:00.000Z"
+      }
+    }
+  ]
+}
