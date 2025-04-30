@@ -1,0 +1,16 @@
+export default {
+  '4xs': '6px',
+  '3xs': '8px',
+  '2xs': '10px',
+  xs: '12px',
+  sm: '14px',
+  base: '16px',
+  md: '18px',
+  lg: '21px',
+  xl: '24px',
+  '2xl': '36px',
+  '3xl': '48px',
+  '4xl': '60px',
+  '5xl': '72px',
+  '6xl': '96px',
+};
