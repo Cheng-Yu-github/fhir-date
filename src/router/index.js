@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import TestDesign from '@/views/TestDesign.vue';
+import TestData from '@/views/TestData.vue';
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -7,6 +8,11 @@ const router = createRouter({
       path: '/',
       name: 'TestDesign',
       component: TestDesign,
+    },
+    {
+      path: '/test-data',
+      name: 'TestData',
+      component: TestData,
     },
   ],
 });

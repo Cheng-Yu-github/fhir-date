@@ -1,0 +1,706 @@
+[
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-refugee-summary",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "34133-9",
+          "display": "Summary of episode note"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-refugee-example"
+    },
+    "date": "2024-03-20T13:45:00.000Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-refugee-summary.pdf",
+          "title": "Refugee Visit Summary",
+          "creation": "2024-03-20T13:45:00.000Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-er-discharge-summary",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "18842-5",
+          "display": "Discharge summary"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-er-visit-example"
+    },
+    "date": "2024-03-05T18:15:00.000Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-er-discharge-summary.pdf",
+          "title": "ED Discharge Summary",
+          "creation": "2024-03-05T18:15:00.000Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-annual-survey-summary",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "60591-5",
+          "display": "Public health annual report"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-health-survey-example"
+    },
+    "date": "2024-12-31T23:59:59Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-annual-survey-summary.pdf",
+          "title": "2024 Annual Health Survey Summary",
+          "creation": "2024-12-31T23:59:59Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-diabetes-tracking-summary",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "34133-9",
+          "display": "Summary of episode note"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-diabetes-tracking"
+    },
+    "date": "2024-03-02T10:30:00.000Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-diabetes-tracking-summary.pdf",
+          "title": "2024 Diabetes Registry Summary",
+          "creation": "2024-03-02T10:30:00.000Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-monthly-lab-summary",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "60591-5",
+          "display": "Public health monthly surveillance report"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-monthly-surveillance"
+    },
+    "date": "2024-04-01T06:00:00Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-monthly-lab-summary.pdf",
+          "title": "March 2024 Lab Collection Summary",
+          "creation": "2024-04-01T06:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-homecare-paper-upload",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "11506-3",
+          "display": "Blood pressure record"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-homecare-retro"
+    },
+    "date": "2024-03-16T10:45:00.000Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-homecare-paper-upload.pdf",
+          "title": "BP Monitoring - March 15, 2024",
+          "creation": "2024-03-16T10:45:00.000Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-ambulatory-bp-report",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "11526-1",
+          "display": "24 hour ambulatory blood pressure report"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-ambulatory-bp"
+    },
+    "date": "2024-03-16T09:30:00.000Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-ambulatory-bp-report.pdf",
+          "title": "Ambulatory BP Monitoring Report",
+          "creation": "2024-03-16T09:30:00.000Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-ecg-summary-report",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "11524-6",
+          "display": "Electrocardiogram summary"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-holter-monitoring"
+    },
+    "date": "2024-03-15T21:30:00.000Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-ecg-summary-report.pdf",
+          "title": "Holter Monitoring Final Report",
+          "creation": "2024-03-15T21:30:00.000Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-cgm-report",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "72166-2",
+          "display": "Glucose monitoring summary report"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-cgm-upload"
+    },
+    "date": "2024-03-15T15:00:00.000Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-cgm-report.pdf",
+          "title": "CGM Upload Summary",
+          "creation": "2024-03-15T15:00:00.000Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-skin-procedure-note",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "11503-0",
+          "display": "Procedure note"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-dayonly-procedure"
+    },
+    "date": "2024-01-15T18:00:00.000Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-skin-procedure-note.pdf",
+          "title": "Skin Lesion Procedure Note",
+          "creation": "2024-01-15T18:00:00.000Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-pt-consent-form",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "64292-6",
+          "display": "Consent for physical therapy"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-physio-start-only"
+    },
+    "date": "2024-01-09T17:00:00Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-pt-consent-form.pdf",
+          "title": "PT Consent Form",
+          "creation": "2024-01-09T17:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-discharge-summary",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "18842-5",
+          "display": "Discharge summary"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-discharge-transfer"
+    },
+    "date": "2024-01-20T18:00:00.000Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-discharge-summary.pdf",
+          "title": "Discharge Summary Report",
+          "creation": "2024-01-20T18:00:00.000Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-operative-note",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "11504-8",
+          "display": "Operative note"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-crosscountry-surgery"
+    },
+    "date": "2024-01-20T23:00:00.000Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-operative-note.pdf",
+          "title": "Knee Surgery Operative Note",
+          "creation": "2024-01-20T23:00:00.000Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-wellness-program-enrollment",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "64293-4",
+          "display": "Preventive care consent form"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-annual-checkup"
+    },
+    "date": "2024-01-02T10:00:00.000Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-wellness-program-enrollment.pdf",
+          "title": "Annual Wellness Program Enrollment",
+          "creation": "2024-01-02T10:00:00.000Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-monthly-lab-order",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "18726-0",
+          "display": "Laboratory report"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-monthly-labs"
+    },
+    "date": "2024-02-28T17:00:00.000Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-monthly-lab-order.pdf",
+          "title": "Monthly Lab Standing Order - March 2024",
+          "creation": "2024-02-28T17:00:00.000Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-lab-appointment-confirmation",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "34873-6",
+          "display": "Laboratory appointment confirmation"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-precise-lab-schedule"
+    },
+    "date": "2024-03-14T12:00:00Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-lab-appointment-confirmation.pdf",
+          "title": "Lab Appointment Confirmation",
+          "creation": "2024-03-14T12:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-rehab-program-intake",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "64292-6",
+          "display": "Rehabilitation intake summary"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-rehab-cycle"
+    },
+    "date": "2024-03-01T09:00:00Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-rehab-program-intake.pdf",
+          "title": "Rehab Program Intake Summary",
+          "creation": "2024-03-01T09:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-custom-rehab-plan",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "68819-9",
+          "display": "Physical therapy treatment plan"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-rehab-midmonth"
+    },
+    "date": "2024-03-14T14:00:00Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-custom-rehab-plan.pdf",
+          "title": "Rehab Plan – Start 2024-03-15",
+          "creation": "2024-03-14T14:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-eu-rehab-consent",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "64292-6",
+          "display": "Consent for rehabilitation services"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-eu-rehab-start"
+    },
+    "date": "2024-03-15T08:00:00.000+02:00",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-eu-rehab-consent.pdf",
+          "title": "Consent Form – EU Rehab Start",
+          "creation": "2024-03-15T08:00:00.000+02:00"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-monthly-health-summary",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "60591-5",
+          "display": "Public health monthly surveillance report"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-population-reporting"
+    },
+    "date": "2024-04-01T08:00:00Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-monthly-health-summary.pdf",
+          "title": "March 2024 Reporting Summary",
+          "creation": "2024-04-01T08:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-lab-series-report",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "11502-2",
+          "display": "Laboratory report"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-lab-series-end"
+    },
+    "date": "2024-03-15T14:45:00Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-lab-series-report.pdf",
+          "title": "Lab Panel Completion Summary",
+          "creation": "2024-03-15T14:45:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-consent-period",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "64292-6",
+          "display": "Consent form"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-consent-period-only"
+    },
+    "date": "2024-01-10T09:00:00Z",
+    "period": {
+      "start": "2024-01-01",
+      "end": "2024-12-31"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-consent-period.pdf",
+          "title": "Data Sharing Consent (2024)",
+          "creation": "2024-01-10T09:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-device-upload-instant",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "55108-5",
+          "display": "Device data transmission log"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-device-upload"
+    },
+    "date": "2024-04-01T06:45:27.456Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-device-upload-instant.pdf",
+          "title": "Device Sync Report",
+          "creation": "2024-04-01T06:45:27.456Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-bp-clinic-form",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "11503-0",
+          "display": "Procedure note"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-timeonly-observation"
+    },
+    "date": "2024-03-15T09:00:00Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-bp-clinic-form.pdf",
+          "title": "BP Clinic Form – March 15",
+          "creation": "2024-03-15T09:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "document-population-study",
+    "status": "current",
+    "type": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "55752-0",
+          "display": "Health service usage summary"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-encounter-yearonly"
+    },
+    "date": "2025-01-10T10:00:00Z",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "http://example.org/fhir/DocumentReference/document-population-study.pdf",
+          "title": "Annual Encounter Summary – 2024",
+          "creation": "2025-01-10T10:00:00Z"
+        }
+      }
+    ]
+  }
+]
