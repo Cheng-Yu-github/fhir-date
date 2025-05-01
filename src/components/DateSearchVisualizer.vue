@@ -29,22 +29,47 @@ function searchParamToRange(value) {
 
 const resourceRanges = computed(() => {
   const candidateFields = Array.isArray(props.dateField) ? props.dateField : [props.dateField];
+  const ranges = [];
 
-  return props.testData.map((item, index) => {
-    let start = null;
-    let end = null;
+  props.testData.forEach((item, index) => {
+    let found = false;
 
     for (const path of candidateFields) {
-      const [s, e] = extractDateRange(item, path);
-      if (s || e) {
-        start = s;
-        end = e;
+      const value = path.split('.').reduce((obj, key) => obj?.[key], item);
+
+      if (Array.isArray(value)) {
+        value.forEach((v, i) => {
+          const [start, end] = getImplicitRangeFromDateTime(v);
+          if (start || end) {
+            ranges.push({
+              label: `Resource #${index + 1} (${i + 1})`,
+              start,
+              end,
+            });
+          }
+        });
+        found = true;
         break;
+      } else {
+        const [start, end] = extractDateRange(item, path);
+        if (start || end) {
+          ranges.push({
+            label: `Resource #${index + 1}`,
+            start,
+            end,
+          });
+          found = true;
+          break;
+        }
       }
     }
 
-    return { label: `Resource #${index + 1}`, start, end };
+    if (!found) {
+      ranges.push({ label: `Resource #${index + 1}`, start: null, end: null });
+    }
   });
+
+  return ranges;
 });
 
 const searchRanges = computed(() => {
@@ -94,7 +119,7 @@ function toPercent(date) {
         <div class="relative h-6 bg-blue-100 rounded overflow-hidden mb-2">
           <div
             v-if="search.start && search.end"
-            class="absolute top-0 bottom-0 bg-blue-500 opacity-60"
+            class="absolute top-0 bottom-0 bg-blue-500 opacity-40"
             :style="{
               left: toPercent(search.start) + '%',
               width: toPercent(search.end) - toPercent(search.start) + '%',
@@ -102,7 +127,7 @@ function toPercent(date) {
           ></div>
           <div
             v-else-if="search.start"
-            class="absolute top-0 bottom-0 bg-blue-500 opacity-60"
+            class="absolute top-0 bottom-0 bg-blue-500 opacity-40"
             :style="{
               left: toPercent(search.start) + '%',
               width: 100 - toPercent(search.start) + '%',
@@ -110,7 +135,7 @@ function toPercent(date) {
           ></div>
           <div
             v-else-if="search.end"
-            class="absolute top-0 bottom-0 bg-blue-500 opacity-60"
+            class="absolute top-0 bottom-0 bg-blue-500 opacity-40"
             :style="{ left: 0, width: toPercent(search.end) + '%' }"
           ></div>
           <span class="absolute text-sm left-1">Search range</span>
@@ -125,7 +150,7 @@ function toPercent(date) {
           <!-- Full range -->
           <div
             v-if="row.start && row.end"
-            class="absolute top-0 bottom-0 bg-green-400 opacity-60"
+            class="absolute top-0 bottom-0 bg-green-400 opacity-40"
             :style="{
               left: toPercent(row.start) + '%',
               width: Math.max(toPercent(row.end) - toPercent(row.start), 0.5) + '%',
@@ -135,7 +160,7 @@ function toPercent(date) {
           <!-- Only start (open-ended) -->
           <div
             v-else-if="row.start"
-            class="absolute top-0 bottom-0 bg-green-400 opacity-60"
+            class="absolute top-0 bottom-0 bg-green-400 opacity-40"
             :style="{
               left: toPercent(row.start) + '%',
               width: 100 - toPercent(row.start) + '%',
@@ -146,7 +171,7 @@ function toPercent(date) {
           <!-- Only end (open-start) -->
           <div
             v-else-if="row.end"
-            class="absolute top-0 bottom-0 bg-green-400 opacity-60"
+            class="absolute top-0 bottom-0 bg-green-400 opacity-40"
             :style="{
               left: '0%',
               width: toPercent(row.end) + '%',
