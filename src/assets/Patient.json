@@ -358,12 +358,12 @@
             "valueCoding": {
               "system": "urn:oid:2.16.840.1.113883.6.238",
               "code": "2186-5",
-              "display": "Not Hispanic or Latino"
+              "display": "Non Hispanic or Latino"
             }
           },
           {
             "url": "text",
-            "valueString": "Not Hispanic or Latino"
+            "valueString": "Non Hispanic or Latino"
           }
         ]
       },
@@ -561,12 +561,12 @@
             "valueCoding": {
               "system": "urn:oid:2.16.840.1.113883.6.238",
               "code": "2186-5",
-              "display": "Not Hispanic or Latino"
+              "display": "Non Hispanic or Latino"
             }
           },
           {
             "url": "text",
-            "valueString": "Not Hispanic or Latino"
+            "valueString": "Non Hispanic or Latino"
           }
         ]
       },
@@ -758,12 +758,12 @@
             "valueCoding": {
               "system": "urn:oid:2.16.840.1.113883.6.238",
               "code": "2186-5",
-              "display": "Not Hispanic or Latino"
+              "display": "Non Hispanic or Latino"
             }
           },
           {
             "url": "text",
-            "valueString": "Not Hispanic or Latino"
+            "valueString": "Non Hispanic or Latino"
           }
         ]
       },
@@ -955,12 +955,12 @@
             "valueCoding": {
               "system": "urn:oid:2.16.840.1.113883.6.238",
               "code": "2186-5",
-              "display": "Not Hispanic or Latino"
+              "display": "Non Hispanic or Latino"
             }
           },
           {
             "url": "text",
-            "valueString": "Not Hispanic or Latino"
+            "valueString": "Non Hispanic or Latino"
           }
         ]
       },
@@ -1123,12 +1123,12 @@
             "valueCoding": {
               "system": "urn:oid:2.16.840.1.113883.6.238",
               "code": "2186-5",
-              "display": "Not Hispanic or Latino"
+              "display": "Non Hispanic or Latino"
             }
           },
           {
             "url": "text",
-            "valueString": "Not Hispanic or Latino"
+            "valueString": "Non Hispanic or Latino"
           }
         ]
       },
@@ -1320,12 +1320,12 @@
             "valueCoding": {
               "system": "urn:oid:2.16.840.1.113883.6.238",
               "code": "2186-5",
-              "display": "Not Hispanic or Latino"
+              "display": "Non Hispanic or Latino"
             }
           },
           {
             "url": "text",
-            "valueString": "Not Hispanic or Latino"
+            "valueString": "Non Hispanic or Latino"
           }
         ]
       },
@@ -1517,12 +1517,12 @@
             "valueCoding": {
               "system": "urn:oid:2.16.840.1.113883.6.238",
               "code": "2186-5",
-              "display": "Not Hispanic or Latino"
+              "display": "Non Hispanic or Latino"
             }
           },
           {
             "url": "text",
-            "valueString": "Not Hispanic or Latino"
+            "valueString": "Non Hispanic or Latino"
           }
         ]
       },
@@ -1714,12 +1714,12 @@
             "valueCoding": {
               "system": "urn:oid:2.16.840.1.113883.6.238",
               "code": "2186-5",
-              "display": "Not Hispanic or Latino"
+              "display": "Non Hispanic or Latino"
             }
           },
           {
             "url": "text",
-            "valueString": "Not Hispanic or Latino"
+            "valueString": "Non Hispanic or Latino"
           }
         ]
       },
@@ -1911,12 +1911,12 @@
             "valueCoding": {
               "system": "urn:oid:2.16.840.1.113883.6.238",
               "code": "2186-5",
-              "display": "Not Hispanic or Latino"
+              "display": "Non Hispanic or Latino"
             }
           },
           {
             "url": "text",
-            "valueString": "Not Hispanic or Latino"
+            "valueString": "Non Hispanic or Latino"
           }
         ]
       },
